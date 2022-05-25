@@ -30,7 +30,7 @@ Display the results.
 </br>
 </br>
 
-## PROGRAM:
+## <br/><br/><br/><br/>PROGRAM:
 ```python
 # Load the necessary packages
 import cv2
@@ -73,61 +73,20 @@ for i in range(0,9):
     plt.show()
 ```
 
-</br>
-</br>
-</br>
 
-## Output
+## <br/><br/><br/><br/>Output
 ### Original Image
 ![t2](https://user-images.githubusercontent.com/75235789/170286410-ddf83e95-bd22-4e80-ade5-d5980ab737a6.jpg)
 
 
 ### Global Thresholding
-
 ![t3](https://user-images.githubusercontent.com/75235789/170286029-923e9cf9-4603-4f77-9e59-79751e1f42c7.jpg)
+
 ![tt4](https://user-images.githubusercontent.com/75235789/170286022-a892cbfa-e4a6-4f4c-8eb1-6eadba1b069e.jpg)
 
 
-
-<br>
-</br>
-<br>
-</br>
-</br>
-</br>
-</br>
-
-</br>
-</br>
-</br>
-
-</br>
-</br>
-
-</br>
-</br>
-
-### Adaptive Thresholding
+### <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>Adaptive Thresholding
 ![tt5](https://user-images.githubusercontent.com/75235789/170286218-fe816e5f-0525-4770-b1c8-7e57f11ec048.jpg)
-
-
-<br>
-</br>
-<br>
-</br>
-</br>
-</br>
-</br>
-
-</br>
-</br>
-</br>
-
-</br>
-</br>
-
-</br>
-</br>
 
 
 ### Optimum Global Thesholding using Otsu's Method
@@ -136,6 +95,6 @@ for i in range(0,9):
 
 
 
-## Result
+## <br/><br/>Result
 Thus the images are segmented using global thresholding, adaptive thresholding and optimum global thresholding using python and OpenCV.
 
