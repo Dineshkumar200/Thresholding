@@ -38,9 +38,9 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 # Read the Image and convert to grayscale
-image=cv2.imread("porsche.jpg",1)
+image=cv2.imread("tree.jpg",1)
 image=cv2.cvtColor(image,cv2.COLOR_BGR2RGB)
-image_gray=cv2.imread("porsche.jpg",0)
+image_gray=cv2.imread("tree.jpg",0)
 
 # Use Global thresholding to segment the image
 ret,thresh_img1=cv2.threshold(image_gray,86,255,cv2.THRESH_BINARY)
